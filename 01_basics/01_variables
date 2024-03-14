@@ -1,0 +1,14 @@
+const accountID =45533
+let accountEmail="anmolgoogle.com"
+var accountPassword="123"
+accountCity="jaipur"
+
+// accountID=2 const cannot be changed
+console.log(accountID);
+
+console.table([accountID,accountEmail,accountPassword,accountCity]);
+/*
+prefer not to use var because of the issue of functional scope
+agar variabble declare karke chiod dete h toh uski value undifiened hoti h 
+*/
+
